@@ -6,6 +6,8 @@
 
 ## --@STCGoal Experimental attempt to package a Generative Adversarial Networking to Uprez Images
 
+or see my notes : [GIST::gia-upscayl](https://gist.github.com/jgwill/77178d1ab8499af65cc88ed4dec39b4d)
+
 ----
 ORIGINAL README
 ----
