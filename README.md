@@ -8,6 +8,10 @@
 
 or see my notes : [GIST::gia-upscayl](https://gist.github.com/jgwill/77178d1ab8499af65cc88ed4dec39b4d)
 
+```sh
+docker pull docker.io/jgwill/ubuntu:cuda_11.5.r11.5
+```
+
 ----
 ORIGINAL README
 ----
