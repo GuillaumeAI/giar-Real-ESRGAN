@@ -2,7 +2,9 @@
 
 
 
-# --@STCGoal Experimental attempt to package a Generative Adversarial Networking to Uprez Images
+# Intentions
+
+## --@STCGoal Experimental attempt to package a Generative Adversarial Networking to Uprez Images
 
 ----
 ORIGINAL README
