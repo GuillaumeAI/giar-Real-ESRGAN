@@ -1,3 +1,13 @@
+
+
+
+
+# --@STCGoal Experimental attempt to package a Generative Adversarial Networking to Uprez Images
+
+----
+ORIGINAL README
+----
+
 <p align="center">
   <img src="assets/realesrgan_logo.png" height=120>
 </p>
