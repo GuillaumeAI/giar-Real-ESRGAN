@@ -88,7 +88,8 @@ def main():
     if args.model_path is not None:
         model_path = args.model_path
     else:
-        model_path = os.path.join('weights', args.model_name + '.pth')
+        model_path = os.path.join('/mnt/c/usr/src/_giar/giar-Real-ESRGAN/weights', args.model_name + '.pth')
+        print("DEBUG:" + model_path)
         if not os.path.isfile(model_path):
             ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
             for url in file_url:
@@ -118,7 +119,8 @@ def main():
     if args.face_enhance:  # Use GFPGAN for face enhancement
         from gfpgan import GFPGANer
         face_enhancer = GFPGANer(
-            model_path='https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth',
+            model_path='/mnt/c/usr/src/_giar/giar-Real-ESRGAN/weights/GFPGANv1.3.pth',
+            # model_path='https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth',
             upscale=args.outscale,
             arch='clean',
             channel_multiplier=2,
