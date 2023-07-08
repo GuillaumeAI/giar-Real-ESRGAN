@@ -7,6 +7,7 @@
 ## --@STCGoal Experimental attempt to package a Generative Adversarial Networking to Uprez Images
 
 or see my notes : [GIST::gia-upscayl](https://gist.github.com/jgwill/77178d1ab8499af65cc88ed4dec39b4d)
+also see : [Proto on GPU Amazon linux 2 230708](https://gist.github.com/jgwill/25a81f5e72e00d425ba9891330a61a29)
 
 ```sh
 docker pull docker.io/jgwill/ubuntu:cuda_11.5.r11.5
